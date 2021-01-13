@@ -163,7 +163,7 @@ void Chassis_processing(float Vx, float Vy, float VOmega) {
 			}
 
 			for (int i = 0; i < 4; i++) {
-				speed[i] = Rad_To_Rpm * M3508s[0].spd * 5.18f;
+				speed[i] = Rad_To_Rpm * M3508s[0].spd * 5.18f*1.55f;
 				M3508s[i].targetSpeed = speed[i] * 40 * Turn;
 				//M3508s[i].targetSpeed *= (0.89f/1.8339f);
 			}
