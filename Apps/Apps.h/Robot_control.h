@@ -32,8 +32,9 @@ typedef enum
 typedef enum
 {
 	ChassisWorkMode_Auto = 0,		             //自动模式
-	ChassisWorkMode_Manual,                                    //手动模式
-	ChassisWorkMode_Disable				                         //失能模式
+	ChassisWorkMode_Manual,                    //手动模式
+	ChassisWorkMode_SmallAuto,                    //小能量模式
+	ChassisWorkMode_Disable				         //失能模式
 }ChassisWorkMode_e;
 
 //云台工作模式

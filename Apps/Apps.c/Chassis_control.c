@@ -103,7 +103,15 @@ void Get_Rad_s(M3508s_t *M3508)
 SpeedRamp_t ChassisRamp_Rotate = { \
   0,\
 	0,\
-	-9900,\
+	- 9900,\
+	9900,\
+};
+
+//底盘遥控左右转斜坡
+SpeedRamp_t SmallRamp_Rotate = { \
+  0,\
+	0,\
+	- 9900,\
 	9900,\
 };
 
@@ -114,6 +122,7 @@ void Chassis_processing(float Vx, float Vy, float VOmega) {
 		for (int i = 0; i < 4; i++)
 		{
 			M3508s[i].outCurrent = 0;
+			M3508s[i].targetSpeed = 0;
 			M3508s[i].spd = 0;
 			Time_rad = -1.6624f;
 		}
@@ -126,15 +135,15 @@ void Chassis_processing(float Vx, float Vy, float VOmega) {
 	if (Last_ChassisWorkMode != Robot.Sport_ChassisWorkMode || Last_CloudWorkMode != Robot.Sport_CloudWorkMode)
 	{
 		ChassisRamp_Rotate.count = M3508s[0].targetSpeed;
-		if (M3508s[0].targetSpeed > 0)
+		if (M3508s[0].targetSpeed > 10)
 		{
 			ChassisRamp_Rotate.rate = -10;
 		}
-		else if (M3508s[0].targetSpeed < 0)
+		else if (M3508s[0].targetSpeed < -10)
 		{
 			ChassisRamp_Rotate.rate = 10;
 		}
-		else if (M3508s[0].targetSpeed == 0)
+		else if (abs(M3508s[0].targetSpeed) <= 10)
 		{
 			ChassisRamp_Rotate.rate = 0;
 			M3508s[0].targetSpeed = 0;
@@ -142,7 +151,7 @@ void Chassis_processing(float Vx, float Vy, float VOmega) {
 			Last_CloudWorkMode = Robot.Sport_CloudWorkMode;
 		}
 
-		M3508s[0].targetSpeed =  SpeedRampCalc(&ChassisRamp_Rotate);
+		M3508s[0].targetSpeed = SpeedRampCalc(&ChassisRamp_Rotate);
 		Time_rad = -1.6624f;
 	}
 	else
@@ -165,9 +174,48 @@ void Chassis_processing(float Vx, float Vy, float VOmega) {
 			for (int i = 0; i < 4; i++) {
 				speed[i] = Rad_To_Rpm * M3508s[0].spd * 5.18f*1.55f;
 				M3508s[i].targetSpeed = speed[i] * 40 * Turn;
-				//M3508s[i].targetSpeed *= (0.89f/1.8339f);
 			}
 
+			break;
+
+		case ChassisWorkMode_SmallAuto:
+			SmallRamp_Rotate.count = M3508s[0].targetSpeed;
+
+			if (Robot.Sport_CloudWorkMode == CloudWorkMode_Negative)
+			{
+				Turn = -1;
+				if (M3508s[0].targetSpeed < -3205)
+				{
+					SmallRamp_Rotate.rate = 5;
+				}
+				else if (M3508s[0].targetSpeed > -3205)
+				{
+					SmallRamp_Rotate.rate = -5;
+				}
+				else if (abs(M3508s[0].targetSpeed) == -3205)
+				{
+					SmallRamp_Rotate.rate = 0;
+				}
+				//M3508s[0].targetSpeed = SpeedRampCalc(&SmallRamp_Rotate);
+			}
+			else
+			{
+				Turn = 1;
+				if (M3508s[0].targetSpeed > 3205)
+				{
+					SmallRamp_Rotate.rate = -5;
+				}
+				else if (M3508s[0].targetSpeed < 3205)
+				{
+					SmallRamp_Rotate.rate = 5;
+				}
+				else if (abs(M3508s[0].targetSpeed) == 3205)
+				{
+					SmallRamp_Rotate.rate = 0;
+				}
+			}
+
+			M3508s[0].targetSpeed = SpeedRampCalc(&SmallRamp_Rotate);
 			break;
 
 		case ChassisWorkMode_Manual:

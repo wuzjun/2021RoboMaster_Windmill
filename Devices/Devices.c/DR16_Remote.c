@@ -98,10 +98,29 @@ void RemoteMode_Update(void)
 
 	switch (DR16.rc.s_left)
 	{
-	case RemotePole_UP: //-----左拨杆 为上--------------PC控制、蓝牙。
-		Robot_Disable();
-		Time_rad = -1.6624f;
-		Robot_ChangeControlSource(ControlSource_Stop);
+	case RemotePole_UP: //-----左拨杆 为上
+
+		switch (DR16.rc.s_right)
+		{
+		case RemotePole_UP:
+			Robot.Sport_ChassisWorkMode = ChassisWorkMode_SmallAuto;
+			Robot.Sport_CloudWorkMode = CloudWorkMode_Negative;
+			break;
+		case RemotePole_MID://左中====右中
+			Robot.Sport_ChassisWorkMode = ChassisWorkMode_SmallAuto;
+			Robot.Sport_CloudWorkMode = CloudWorkMode_Disable;
+			break;
+
+		case RemotePole_DOWM://左中====右下
+
+			Robot.Sport_ChassisWorkMode = ChassisWorkMode_Manual;
+			Robot.Sport_CloudWorkMode = CloudWorkMode_Disable;
+
+			break;
+		}
+
+		//Time_rad = -1.6624f;
+		Robot_ChangeControlSource(ControlSource_RC);
 
 		break;
 	case RemotePole_MID://-------左拨杆 为中	------------遥控器控制模式

@@ -240,6 +240,21 @@
           <WinNumber>1</WinNumber>
           <ItemText>Last_ChassisWorkMode</ItemText>
         </Ww>
+        <Ww>
+          <count>17</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>Robot</ItemText>
+        </Ww>
+        <Ww>
+          <count>18</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>	if (Last_ChassisWorkMode != Robot.Sport_ChassisWorkMode || Last_CloudWorkMode != Robot.Sport_CloudWorkMode)</ItemText>
+        </Ww>
+        <Ww>
+          <count>19</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>Last_CloudWorkMode</ItemText>
+        </Ww>
       </WatchWindow1>
       <Tracepoint>
         <THDelay>0</THDelay>

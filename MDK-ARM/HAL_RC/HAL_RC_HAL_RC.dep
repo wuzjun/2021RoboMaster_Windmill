@@ -66,8 +66,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (../Src/gpio.c)(0x5FBF9F57)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\gpio.o --omf_browse hal_rc\gpio.crf --depend hal_rc\gpio.d)
@@ -238,8 +238,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 I (..\Devices\Devices.h\bldc_can.h)(0x5FB4E1D5)
@@ -373,8 +373,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 I (..\User\handle.h)(0x5FA56343)
@@ -1025,7 +1025,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F9A6EFE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F9A6EFE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F9A6EFE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F9A6EFE)
-F (..\Devices\Devices.c\DR16_Remote.c)(0x5FFAB81D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\dr16_remote.o --omf_browse hal_rc\dr16_remote.crf --depend hal_rc\dr16_remote.d)
+F (..\Devices\Devices.c\DR16_Remote.c)(0x6003A977)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\dr16_remote.o --omf_browse hal_rc\dr16_remote.crf --depend hal_rc\dr16_remote.d)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\User\user_common.h)(0x5FFABA9D)
 I (E:\Program Files (x86)\Keil_5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1076,8 +1076,8 @@ I (..\Algorithm\Algorithm.h\PID.h)(0x5F772A44)
 I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 I (..\Devices\Devices.h\bldc_can.h)(0x5FB4E1D5)
@@ -1118,7 +1118,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F9A6EFE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F9A6EFE)
 I (../Inc/usart.h)(0x5FBF9F58)
 F (..\Devices\Devices.c\M3508_Motor.c)(0x5FBF3493)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\m3508_motor.o --omf_browse hal_rc\m3508_motor.crf --depend hal_rc\m3508_motor.d)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
 I (..\User\user_common.h)(0x5FFABA9D)
 I (E:\Program Files (x86)\Keil_5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (E:\Program Files (x86)\Keil_5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
@@ -1169,7 +1169,7 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (..\BSP\BSP.c\BSP_USART.c)(0x5F9CFFF4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\bsp_usart.o --omf_browse hal_rc\bsp_usart.crf --depend hal_rc\bsp_usart.d)
@@ -1223,8 +1223,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (..\BSP\BSP.c\BSP_TIM.c)(0x5F58B3C3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\bsp_tim.o --omf_browse hal_rc\bsp_tim.crf --depend hal_rc\bsp_tim.d)
@@ -1277,8 +1277,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 I (../Inc/tim.h)(0x5FBF9F58)
@@ -1333,8 +1333,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (..\Algorithm\Algorithm.c\PID.c)(0x5F772A44)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\pid.o --omf_browse hal_rc\pid.crf --depend hal_rc\pid.d)
@@ -1388,8 +1388,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (..\Algorithm\Algorithm.c\AddMath.c)(0x5FBF4981)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\addmath.o --omf_browse hal_rc\addmath.crf --depend hal_rc\addmath.d)
@@ -1443,8 +1443,8 @@ I (..\Algorithm\Algorithm.h\PID.h)(0x5F772A44)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (..\Algorithm\Algorithm.c\SpeedRamp.c)(0x5F772A44)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\speedramp.o --omf_browse hal_rc\speedramp.crf --depend hal_rc\speedramp.d)
@@ -1498,8 +1498,8 @@ I (..\Algorithm\Algorithm.h\PID.h)(0x5F772A44)
 I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x5F9A6F00)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\croutine.o --omf_browse hal_rc\croutine.crf --depend hal_rc\croutine.d)
@@ -1646,8 +1646,8 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5F9A6F00)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5F9A6F00)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5F9A6F00)
-F (..\Apps\Apps.c\Robot_control.c)(0x5FFAF943)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\robot_control.o --omf_browse hal_rc\robot_control.crf --depend hal_rc\robot_control.d)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+F (..\Apps\Apps.c\Robot_control.c)(0x6003CF1E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\robot_control.o --omf_browse hal_rc\robot_control.crf --depend hal_rc\robot_control.d)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\User\user_common.h)(0x5FFABA9D)
 I (E:\Program Files (x86)\Keil_5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (E:\Program Files (x86)\Keil_5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
@@ -1698,7 +1698,7 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 F (..\Apps\Apps.c\Monitor_RM_CAN.c)(0x5FBF7020)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\monitor_rm_can.o --omf_browse hal_rc\monitor_rm_can.crf --depend hal_rc\monitor_rm_can.d)
@@ -1753,8 +1753,8 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5F9A6F00)
 I (../Inc/FreeRTOSConfig.h)(0x5FBF9F58)
@@ -1770,7 +1770,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5F9A6F00)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5F9A6F00)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5F9A6F00)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5F9A6F00)
-F (..\Apps\Apps.c\Chassis_control.c)(0x5FFBEDA1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\chassis_control.o --omf_browse hal_rc\chassis_control.crf --depend hal_rc\chassis_control.d)
+F (..\Apps\Apps.c\Chassis_control.c)(0x6003CF31)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Devices\Devices.h -I ..\User -I ..\BSP\BSP.h -I ..\Algorithm\Algorithm.h -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ..\Apps\Apps.h-I.\RTE\_HAL_RC-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"E:\Program Files (x86)\Keil_5\Miraggio\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o hal_rc\chassis_control.o --omf_browse hal_rc\chassis_control.crf --depend hal_rc\chassis_control.d)
 I (..\Apps\Apps.h\Chassis_control.h)(0x5FBFA118)
 I (..\User\user_common.h)(0x5FFABA9D)
 I (E:\Program Files (x86)\Keil_5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1822,6 +1822,6 @@ I (..\Algorithm\Algorithm.h\AddMath.h)(0x5FBF7164)
 I (..\Algorithm\Algorithm.h\SpeedRamp.h)(0x5F772A44)
 I (..\Devices\Devices.h\DR16_Remote.h)(0x5FB628DA)
 I (..\Devices\Devices.h\Debug_DataScope.h)(0x5F9A7F10)
-I (..\Devices\Devices.h\M3508_Motor.h)(0x5FBFA90A)
-I (..\Apps\Apps.h\Robot_control.h)(0x5FFAF943)
+I (..\Devices\Devices.h\M3508_Motor.h)(0x6003A76B)
+I (..\Apps\Apps.h\Robot_control.h)(0x6003A64B)
 I (..\Apps\Apps.h\Monitor_RM_CAN.h)(0x5FBF50B4)
